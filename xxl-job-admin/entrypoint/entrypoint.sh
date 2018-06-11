@@ -6,7 +6,7 @@
 cd /data/myworkspace/share_software/xxl-job && mvn clean install
 
 #拷贝war包
-cd ./xxl-job-admin/target/ && mv xxl-job-admin-1.9.2-SNAPSHOT.war /data/myworkspace/share_software/tomcat/webapps
+cd ./xxl-job-admin/target/ && mv xxl-job-admin-1.9.2-SNAPSHOT.war /data/myworkspace/share_software/tomcat/webapps/xxl-job-admin.war
 
 #启动tomcat
 cd /data/myworkspace/share_software/tomcat/bin/
