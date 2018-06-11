@@ -1,5 +1,0 @@
-com/xuxueli/executor/sample/nutz/MainModule.class
-com/xuxueli/executor/sample/nutz/module/IndexModule.class
-com/xuxueli/executor/sample/nutz/config/NutzSetup.class
-com/xuxueli/executor/sample/nutz/jobhandler/ShardingJobHandler.class
-com/xuxueli/executor/sample/nutz/jobhandler/DemoJobHandler.class

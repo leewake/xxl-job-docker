@@ -7,14 +7,538 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d489acc-67d8-4ae9-a76e-539afb2990ac" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/create_container.sh" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/create_container.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/xxl-job-admin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/xxl-job-admin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-admin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-admin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-core/target/xxl-job-core-1.9.2-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobGroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/annotation/PermessionLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/interceptor/CookieInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/controller/resolver/WebExceptionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/conf/XxlJobAdminConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/enums/ExecutorFailStrategyEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/jobbean/RemoteHttpJobBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobLogGlue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/ExecutorRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/schedule/XxlJobDynamicScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/trigger/XxlJobTrigger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/CookieUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/FtlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/I18nUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/LocalCacheUtil$LocalCacheData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/LocalCacheUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/core/util/MailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobGroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobLogDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobLogGlueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobRegistryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/service/XxlJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/service/impl/AdminBizImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/com/xxl/job/admin/service/impl/XxlJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/freemarker.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/i18n/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/i18n/message_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/quartz.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/spring/applicationcontext-base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/spring/applicationcontext-xxl-job-admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/spring/springmvc-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/xxl-job-admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/controller/AbstractSpringMvcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/controller/JobInfoControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/dao/XxlJobGroupDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/dao/XxlJobInfoDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/dao/XxlJobLogDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/dao/XxlJobLogGlueDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/dao/XxlJobRegistryDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/util/I18nUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/admin/util/MailUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/test-classes/com/xxl/job/adminbiz/AdminBizTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/JobApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/JobCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/JobGroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/JobInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/JobLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/annotation/PermessionLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/interceptor/CookieInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/controller/resolver/WebExceptionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/conf/XxlJobAdminConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/enums/ExecutorFailStrategyEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/jobbean/RemoteHttpJobBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/model/XxlJobGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/model/XxlJobInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/model/XxlJobLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/model/XxlJobLogGlue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/model/XxlJobRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/ExecutorRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/schedule/XxlJobDynamicScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/trigger/XxlJobTrigger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/CookieUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/FtlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/I18nUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/LocalCacheUtil$LocalCacheData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/LocalCacheUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/core/util/MailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/dao/XxlJobGroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/dao/XxlJobInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/dao/XxlJobLogDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/dao/XxlJobLogGlueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/dao/XxlJobRegistryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/service/XxlJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/service/impl/AdminBizImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/admin/service/impl/XxlJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/freemarker.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/i18n/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/i18n/message_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/quartz.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/spring/applicationcontext-base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/spring/applicationcontext-xxl-job-admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/spring/springmvc-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/HikariCP-java6-2.3.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-email-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/groovy-all-2.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/hessian-4.0.51.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/javax.mail-1.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-http-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-io-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-server-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-util-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.45.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/quartz-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-test-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/common/common.exception.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/common/common.macro.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/help.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/jobcode/jobcode.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/jobgroup/jobgroup.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/jobinfo/jobinfo.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/joblog/joblog.detail.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/joblog/joblog.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/template/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/AdminLTE-local.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY[0].woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6Lpx497t94oDua8KfAL9f-E.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6OXKTZYPNtG1yMB_YJSqlic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/google-local/local.google.fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/dist/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/datatables/jquery.dataTables_themeroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/fastclick/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/common.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/jobcode.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/jobgroup.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/jobinfo.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/joblog.detail.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/joblog.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/js/login.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/addon/hint/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/addon/hint/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/lib/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/echarts/echarts.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/ionicons-2.0.1/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/ionicons-2.0.1/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/ionicons-2.0.1/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/ionicons-2.0.1/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/ionicons-2.0.1/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/jquery/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/jquery/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/pace/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/pace/themes/pace-theme-bounce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/xxl-job-admin-1.9.2-SNAPSHOT/static/plugins/pace/themes/pace-theme-flash.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/AdminBiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/ExecutorBiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/impl/ExecutorBizImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/model/HandleCallbackParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/model/LogResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/model/RegistryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/model/ReturnT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/biz/model/TriggerParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/enums/ExecutorBlockStrategyEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/enums/RegistryConfig$RegistType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/enums/RegistryConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/executor/XxlJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/glue/GlueFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/glue/GlueTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/handler/IJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/handler/annotation/JobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/handler/impl/GlueJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/handler/impl/ScriptJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/log/XxlJobFileAppender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/log/XxlJobLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/codec/RpcRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/codec/RpcResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/NetComClientProxy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/NetComClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/NetComServerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/jetty/client/JettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/jetty/server/JettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/jetty/server/JettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/netcom/jetty/server/JettyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/rpc/serialize/HessianSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/ExecutorRegistryThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/ExecutorRegistryThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/JobLogFileCleanThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/JobLogFileCleanThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/JobThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/TriggerCallbackThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/thread/TriggerCallbackThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/HttpClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/JacksonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/JacksonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/NetUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/ScriptUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/ShardingUtil$ShardingVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/classes/com/xxl/job/core/util/ShardingUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-core/target/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/com/xuxueli/executor/sample/jfinal/config/JFinalCoreConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/com/xuxueli/executor/sample/jfinal/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/com/xuxueli/executor/sample/jfinal/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/com/xuxueli/executor/sample/jfinal/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/jfinal/config/JFinalCoreConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/jfinal/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/jfinal/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/jfinal/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/cglib-nodep-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/groovy-all-2.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/hessian-4.0.51.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-http-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-io-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-server-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-util-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jfinal-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-1.9.2-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/com/xuxueli/executor/sample/nutz/MainModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/com/xuxueli/executor/sample/nutz/config/NutzSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/com/xuxueli/executor/sample/nutz/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/com/xuxueli/executor/sample/nutz/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/com/xuxueli/executor/sample/nutz/module/IndexModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/nutz/MainModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/nutz/config/NutzSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/nutz/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/nutz/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/com/xuxueli/executor/sample/nutz/module/IndexModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/groovy-all-2.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/hessian-4.0.51.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-http-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-io-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-server-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-util-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/nutz-1.r.62.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-1.9.2-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/classes/applicationcontext-xxl-job.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/classes/com/xxl/job/executor/service/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/classes/com/xxl/job/executor/service/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/test-classes/com/xxl/executor/test/DemoJobHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/classes/applicationcontext-xxl-job.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/executor/service/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/classes/com/xxl/job/executor/service/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/groovy-all-2.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/hessian-4.0.51.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-http-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-io-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-server-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jetty-util-9.2.24.v20180105.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/lib/xxl-job-core-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-1.9.2-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/core/config/XxlJobConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/mvc/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/service/jobhandler/DemoJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/com/xxl/job/executor/service/jobhandler/ShardingJobHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/test-classes/com/xxl/job/executor/test/XxlJobExecutorExampleBootApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/xxl-job-executor-sample-springboot-1.9.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/xxl-job-executor-sample-springboot-1.9.2-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/" />
@@ -37,7 +561,7 @@
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/entrypoint/entrypoint.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -45,8 +569,8 @@
       <file leaf-file-name="create_container.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/create_container.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -73,7 +597,7 @@
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/resources/xxl-job-admin.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -82,7 +606,7 @@
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -91,7 +615,7 @@
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/rebuild.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -100,7 +624,7 @@
         <entry file="file://$PROJECT_DIR$/xxl-job-admin/restart_container.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -138,8 +662,8 @@
         <option value="$PROJECT_DIR$/xxl-job-admin/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job-admin/entrypoint/entrypoint.sh" />
         <option value="$PROJECT_DIR$/xxl-job-admin/src/main/resources/xxl-job-admin.properties" />
-        <option value="$PROJECT_DIR$/xxl-job-admin/create_container.sh" />
         <option value="$PROJECT_DIR$/xxl-job-admin/restart_container.sh" />
+        <option value="$PROJECT_DIR$/xxl-job-admin/create_container.sh" />
       </list>
     </option>
   </component>
@@ -203,30 +727,12 @@
             <path>
               <item name="xxl-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="xxl-job" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xxl-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="xxl-job" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxl-job" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxl-job" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxl-job" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxl-job" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="entrypoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxl-job" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxl-job" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,7 +959,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34388000" />
+    <option name="totallyTimeSpent" value="35052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -491,11 +997,44 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48373982" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3292683" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
+      <window_info anchor="right" id="RestServices" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,9 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/db/tables_xxl_job.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -825,42 +1361,47 @@
     <entry file="file://$PROJECT_DIR$/xxl-job-admin/entrypoint/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-admin/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/resources/xxl-job-admin.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-admin/rebuild.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-admin/restart_container.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-admin/src/main/resources/xxl-job-admin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-admin/create_container.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
