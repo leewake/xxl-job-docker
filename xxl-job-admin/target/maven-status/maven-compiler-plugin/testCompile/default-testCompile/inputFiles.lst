@@ -1,0 +1,10 @@
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogGlueDaoTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobRegistryDaoTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/util/I18nUtilTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/JobInfoControllerTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/util/MailUtilTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/adminbiz/AdminBizTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobGroupDaoTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogDaoTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/AbstractSpringMvcTest.java
+/data/myworkspace/share_software/xxl-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobInfoDaoTest.java
